@@ -1,7 +1,7 @@
 
 // function load_db(){
 //     var xhr = new XMLHttpRequest();
-//     xhr.open('GET', '/js/quiz_VDS.sqlite', true);
+//     xhr.open('GET', './js/quiz_VDS.sqlite', true);
 //     xhr.responseType = 'arraybuffer';
     
 //     xhr.onload = e => {
@@ -314,7 +314,7 @@ $(document).ready(
   function(){
     
 
-        loadBinaryFile('/js/quiz_VDS.sqlite', function(data){
+        loadBinaryFile('./js/quiz_VDS.sqlite', function(data){
             var sqldb = new SQL.Database(data);
             // Database is ready
             var res = sqldb.exec("select distinct sezione from quiz order by quiz_id;");
