@@ -11,3 +11,4 @@ Tool Online in preparation for the VDS VL exam.
 - jQuery
 - Fontawsome
 - datatables 1.10.18
+- <a href="https://github.com/kripken/sql.js?files=1" target="_blank">sql.js</a>

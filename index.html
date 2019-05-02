@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>PCL - Quiz VDS Online</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  
+  <div id="loader-para">
+    <img src="./img/ag_windsock.gif"/>
+  </div>
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">PCL - QuizVDS</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Start</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#sequenziale">Sequenziale</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#esame">Prova Esame</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#developer">Developer</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">QUIZ VDS 2017 - PCL Laveno</h1>
+      <h3 class="mb-5">
+        <em>Prova d'esame o test sequenziale per argomento.</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger w25p" href="#esame">Esame<br><i class="fas fa-2x fa-list-ol"></i></a>
+      <a class="btn btn-light btn-xl js-scroll-trigger w25p" href="#sequenziale">Sequenziale<br><i class="fas fa-2x fa-sort-numeric-down"></i></a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- About -->
+  <section class="content-section bg-light" id="esame">
+    <div class="container" id="esame-div">
+      <div class="row" id='output_html' style="font-size: x-large;">
+
+          <div class="no-print mobile" id="recap_errors_esame_mobile">
+            <div class="card_mobile">
+              <div class="card_body_mobile">
+                <input type="number" name="nquiz" min="1" max="100" value=30 hidden>
+                <button class="btn btn-info esame_quiz_genera" data-toggle="tooltip" title="Rigenera il Quiz"><i class="fas fa-random"></i></button>
+                <div class="inline"><span class="" id="risposte_corrette_esame_mobile">0</span><span><i class="fas fa-check-circle"></i></span></div>
+                <div class="inline"><span class="" id="risposte_errate_esame_mobile">0</span><span><i class="fas fa-times-circle"></i></span></div>
+                <hr></hr><div class='tot_nq_esame'></div>                
+                <button class="btn btn-info" onclick="reset_quiz_esame();" data-toggle="tooltip" title="Azzera le risposte"><i class="fas fa-undo-alt"></i></button>
+                <button class="btn btn-dark print_quiz" title="Stampa il Test" data-toggle="tooltip"><i class="fas fa-print"></i></button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 mx-auto no-print desktop" id="recap_errors_esame">
+            <div class="card">
+              <h5 class="card-header">Risposte</h5>
+              <div class="card-body">
+                <button class="btn btn-info esame_quiz_genera" data-toggle="tooltip" title="Rigenera il Quiz"><i class="fas fa-random"></i>Genera</button>
+                <input type="number" name="nquiz" min="1" max="100" value=30 hidden>
+                <hr></hr>
+                <div class=""><span class="btn btn-success" id="risposte_corrette_esame">0</span><span>corrette</span></div>
+                <div class=""><span class="btn btn-warning" id="risposte_errate_esame">0</span><span>errate</span></div>
+                <hr></hr>
+                <div class='tot_nq_esame'></div>
+                <hr></hr>
+                <button class="btn btn-info" onclick="reset_quiz_esame();" data-toggle="tooltip" title="Azzera le risposte"><i class="fas fa-undo-alt"></i>Ricomincia</button>
+                <button class="btn btn-dark print_quiz" title="Stampa il Test" data-toggle="tooltip"><i class="fas fa-print"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-10 mx-auto" id="quiz_esame">
+          <h2>TEST ESAME VDS - 30 domande casuali</h2>
+          <!--<h4>cambiando il numero delle domande casuali non verra' rispettato il numero corretto di domande per argomento -->
+          <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target=".bd-example-modal-sm"><i class="fas fa-info-circle"> punteggi</i></button></h4>
+          <hr></hr>
+    		    <table id="esame-tabella" class="display stripe" style="width:100%">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Domanda</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="content-section" id="sequenziale">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">DOMANDE PER ARGOMENTO</h3>
+        <h2 class="mb-5">Test Sequenziale</h2>
+      </div>
+      <div class="row no-gutters" id="section_cards">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Test Sequenziale -->
+  <section class="content-section bg-light" id="test-seq">
+    <div class="container" id='questions-div'>
+      <div class="row" style="font-size: x-large;">
+        
+        <div class="no-print mobile" id="recap_errors_mobile">
+            <div class="card_mobile">
+              <div class="card_body_mobile">
+                <div class="inline"><span class="" id="risposte_corrette_mobile">0</span><span><i class="fas fa-check-circle"></i></span></div>
+                <div class="inline"><span class="" id="risposte_errate_mobile">0</span><span><i class="fas fa-times-circle"></i></span></div>
+                <hr></hr><div class='tot_nq_seq'></div>
+                <button class="btn btn-info" onclick="reset_quiz_sequenziale();" data-toggle="tooltip" title="Azzera le risposte"><i class="fas fa-undo-alt"></i></button>
+                <button class="btn btn-dark print_quiz_argomento" title="Stampa il Test" data-toggle="tooltip"><i class="fas fa-print"></i></button>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-lg-2 mx-auto no-print desktop" id="recap_errors">
+          <div class="card">
+            <h5 class="card-header">Risposte</h5>
+            <div class="card-body">
+              <div class=""><span class="btn btn-success" id="risposte_corrette">0</span><span>corrette</span></div>
+              <div class=""><span class="btn btn-warning" id="risposte_errate">0</span><span>errate</span></div>
+              <hr></hr>
+              <div class='tot_nq_seq'></div>
+              <hr></hr>
+              <button class="btn btn-info" onclick="reset_quiz_sequenziale();" data-toggle="tooltip" title="Azzera le risposte"><i class="fas fa-undo-alt"></i>Ricomincia</button>
+              <button class="btn btn-dark print_quiz_argomento" title="Stampa Quiz Argomento" data-toggle="tooltip"><i class="fas fa-print"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10 mx-auto" id="quiz_sequenziale">
+          <h2>TEST ESAME VDS -  <span id="argomento-selezionato"></span> - Tutte le domande</h2>
+    		   <div>
+    		    <table id="argomento-tabella" class="display stripe" style="width:100%">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Domanda</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+    		    
+    		  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Call to Action -->
+  <section class="content-section bg-primary text-white" id="developer">
+    <div class="container text-center">
+      <h2 class="mb-4">Tenz Air - Coding & Paragliding 4 Fun !!!</h2>
+      <img src="./img/Tenz_logo_2018.png" style="border-radius: 100%;max-width: 200px;width:100%;"/>
+      <img src="./img/tenz.PNG" style="border-radius: 100%;max-width: 300px;width:100%;"/>
+      <h2>Follow Me On</h2>
+      <i class="fas fa-3x fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Large modal
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#quiz_modal">Large modal</button>
+   -->
+
+    <div id="quiz_modal">
+      <div class="modal_quiz_dialog" role="document">
+        <div class="modal_quiz_content">
+          <div class="modal-header">
+            <button type="button" class="btn btn-dark close_modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h5 class="modal-title" id="exampleModalLongTitle"><i class="fab fa-2x fa-angellist"> </i>Quiz svolti</h5>
+          </div>
+          <div class="modal-body">
+            <p>Totale domande svolte: <b id="quiz_svolti"></b> di cui</p>
+            <div id="riepilogo_quiz_div"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark close_modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button class="btn btn-dark print_report" title="Stampa il Test" data-toggle="tooltip"><i class="fas fa-print"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- SMALL MODAL -->
+  <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5>La prova d’esame avrà la durata massima di 30’ per la soluzione di 30 domande a quiz così articolate:</h5>
+        <button type="button" class="btn btn-dark close_modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped table-hover table-sm" style="font-size:smaller;font-family: sans-serif;">
+          <tbody>
+            <tr >
+              <td >
+                <p ><b><span >#</span></b></p>
+              </td>
+              <td >
+                <p ><b><span >Materia</span></b></p>
+              </td>
+              <td >
+                <p ><b><span >Domande</span></b></p>
+              </td>
+              <td >
+                <p ><b><span >Punti</span></b></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >1</span></b></p>
+              </td>
+              <td >
+                <p ><span >Normativa e legislazione</span></p>
+              </td>
+              <td >
+                <p ><span >4</span></p>
+              </td>
+              <td >
+                <p ><span >3</span></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >2</span></b></p>
+              </td>
+              <td >
+                <p ><span >Aerodinamica</span></p>
+              </td>
+              <td >
+                <p ><span >8</span></p>
+              </td>
+              <td >
+                <p ><span >3</span></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >3</span></b></p>
+              </td>
+              <td >
+                <p ><span >Pronto soccorso</span></p>
+              </td>
+              <td >
+                <p ><span >1</span></p>
+              </td>
+              <td >
+                <p ><span >2</span></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >4</span></b></p>
+              </td>
+              <td >
+                <p ><span >Fisiopatologia del volo</span></p>
+              </td>
+              <td >
+                <p ><span >1</span></p>
+              </td>
+              <td >
+                <p ><span >2</span></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >5</span></b></p>
+              </td>
+              <td >
+                <p ><span >Meteorologia e aerologia</span></p>
+              </td>
+              <td >
+                <p ><span >6</span></p>
+              </td>
+              <td >
+                <p ><span >4</span></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >6</span></b></p>
+              </td>
+              <td >
+                <p ><span >Strumenti</span></p>
+              </td>
+              <td >
+                <p ><span >1</span></p>
+              </td>
+              <td >
+                <p ><span >2</span></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >7</span></b></p>
+              </td>
+              <td >
+                <p ><span >Tecnica di pilotaggio</span></p>
+              </td>
+              <td >
+                <p ><span >5</span></p>
+              </td>
+              <td >
+                <p ><span >4</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td >
+                <p ><b><span >8</span></b></p>
+              </td>
+              <td >
+                <p ><span >Materiali</span></p>
+              </td>
+              <td >
+                <p ><span >1</span></p>
+              </td>
+              <td >
+                <p ><span >2</span></p>
+              </td>
+            </tr>
+            <tr >
+              <td >
+                <p ><b><span >9</span></b></p>
+              </td>
+              <td >
+                <p ><span >Sicurezza del volo</span></p>
+              </td>
+              <td >
+                <p ><span >3</span></p>
+              </td>
+              <td >
+                <p ><span >4</span></p>
+              </td>
+            </tr>
+            <tr style="background-color: #0c525d;color: white;" >
+              <td ></td>
+              <td >
+                <p ><span ><b>TOTALE</b></span></p>
+              </td>
+              <td >
+                <p ><span ><b>30</b></span></p>
+              </td>
+              <td >
+                <p ><span ><b>100</b></span></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Esiti:</h3>
+        <ul>
+          <li>da punti 100 a punti 86 idoneo;</li>
+          <li>da punti 85 a punti 80 idoneo con superamento di una verifica orale, riguardante i quesiti errati;</li>
+          <li>inferiore a 80 punti non idoneo;</li>
+        </ul>
+      </div>
+    
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark close_modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+    </div>    
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/tenzmar/" target="_blank">
+            <i class="icon-social-instagram"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.youtube.com/channel/UC7l2grbLtUJpPGoXAErXLnA" target="_blank">
+            <i class="icon-social-youtube"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/Tenzairbrush" target="_blank">
+            <i class="icon-social-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="https://github.com/Martenz" target="_blank">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; PCL 2019</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  
+  <!-- Plugin Datatables CDN -->
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+  <script src="js/sql.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

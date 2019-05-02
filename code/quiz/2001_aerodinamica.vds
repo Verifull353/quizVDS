@@ -1,0 +1,748 @@
+2001   Che cosa studia l'aerodinamica? 
+1.	Le leggi della dinamica dei fluidi. 
+2.	Le leggi che regolano il moto di corpi solidi immersi in un fluido gassoso.  
+3.	Lo spostamento delle masse d'aria nell'atmosfera terrestre. 
+ 
+2002   Che cosa è un'ala? 
+1.	È un corpo di forma prestabilita che genera portanza aerodinamica in ogni condizione. 
+2.	È un corpo di forma appropriata che posto in movimento rispetto all'aria genera forze aerodinamiche. 
+3.	È un corpo di forma qualsiasi che genera solo portanza quando posto in movimento rispetto all'aria.  
+
+2003   Che cosa s’intende per "profilo alare"? 
+1.	La proiezione dell'ala sul piano orizzontale. 
+2.	La proiezione dell'ala sul piano verticale passante per le estremità alari. 
+3.	La sezione di un'ala, determinata su un piano perpendicolare all'asse trasversale.  
+ 
+2004   Quali sono i più comuni tipi di profilo alare utilizzati nel VDS/VL? 
+1.	Piano convesso ed ellittico simmetrico. 
+2.	Cavo convesso e biconvesso simmetrico. 
+3.	Concavo convesso, piano convesso e biconvesso. 
+ 
+2005   Che cosa s’intende rispettivamente per bordo d'attacco e per bordo d'uscita di un'ala? 
+1.	La parte dell'ala che si attacca alla fusoliera e l'estremità alare. 
+2.	Il bordo esterno ed interno dell'ala. 
+3.	Il bordo anteriore ed il bordo posteriore di   un'ala. 
+ 
+2006   Che cosa è la corda alare o aerodinamica? 
+1.	È il segmento di retta che unisce il bordo d'attacco al bordo d'uscita del profilo alare. 
+2.	È il segmento di retta che identifica il piano di simmetria dell'ala. 
+3.	È la distanza tra le due estremità alari. 
+ 
+2007   Che cosa s’intende rispettivamente per estradosso e intradosso di un'ala? 
+1.	La superficie inferiore e la superficie superiore dell'ala stessa. 
+2.	La superficie superiore ed inferiore dell'ala stessa.  
+3.	La superficie interna ed esterna dell'ala stessa. 
+ 
+2008   Che cosa s’intende per apertura alare? 
+1.	La distanza tra le due estremità alari. 
+2.	La distanza tra bordo d'attacco e bordo d'uscita del profilo alare. 
+3.	La massima distanza tra estradosso ed intradosso dell'ala. 
+ 
+2009   Che cosa s’intende per allungamento di un'ala? 
+1.	È la distanza tra le estremità alari. 
+2.	È il rapporto tra superficie alare e apertura alare. 
+3.	È il rapporto tra il quadrato dell'apertura alare e la superficie dell'ala. 
+ 
+2010   Quant'è l'allungamento di un'ala di 25 m2 di superficie dotata di un'apertura alare di 10 m? 
+1.	4 (quattro). 
+2.	2.5 (due virgola cinque). 
+3.	6.25 (sei virgola venticinque). 
+ 
+2011   Quali sono gli assi attorno ai quali si muove un'ala? 
+1.	Quello longitudinale e quello verticale. 
+2.	Quello longitudinale, quello trasversale e quello verticale. 
+3.	Quello longitudinale e quello trasversale. 
+ 
+2012   Come si chiama il movimento di un'ala rispetto al suo asse longitudinale? 
+1.	Rollio. 
+2.	Imbardata. 
+3.	Beccheggio. 
+ 
+2013   Come si chiama il movimento di un'ala rispetto al suo asse trasversale? 
+1.	Rollio. 
+2.	Imbardata. 
+3.	Beccheggio. 
+ 
+2014   Come si chiama il movimento di un'ala rispetto al suo asse verticale? 
+1.	Rollio. 
+2.	Imbardata. 
+3.	Beccheggio. 
+ 
+2015   L'ala può essere considerata una "macchina"? 
+1.	No, perché priva di particolari meccanismi. 
+2.	Solo se dotata di superfici mobili. 
+3.	Si, perché trasforma un tipo di energia in energia di tipo diverso. 
+ 
+2016   Il movimento di un'ala: 
+1.	perturba l'aria circostante all'interno del così detto "tubo di flusso". 
+2.	non disturba l'aria circostante.  
+3.	perturba l'aria circostante, ma solo al di fuori di un "tubo di flusso". 
+ 
+2017   Per quale motivo parlando di aerodinamica è necessario fare riferimento al "tubo di flusso"? 
+1.	Perché si usa fare così in fisica. 
+2.	Perché gli esperimenti in galleria del vento sono effettuati in un locale a forma di tubo. 
+3.	Perché le leggi dell'aerodinamica che regolano il volo valgono all'interno appunto di un tubo ideale detto "tubo di flusso". 
+ 
+2018   Che cosa è un "tubo di flusso"? 
+1.	La porzione di aria perturbata dal passaggio di un'ala. 
+2.	Un congegno per la misura della velocità di un’ala. 
+3.	La zona interessata dalla sola scia di un'ala in movimento. 
+ 
+2019   All'interno di un "tubo di flusso": 
+1.	la presenza di un solido perturba comunque il flusso del fluido. 
+2.	la presenza di un solido opportunamente profilato non disturba il flusso di un fluido. 
+3.	la presenza di un solido determina necessariamente una variazione di portata. 
+ 
+2020   Un profilo investito da aria in movimento determina gli stessi effetti aerodinamici di un profilo che si muove nell’aria? 
+1.	No, indipendentemente dalla velocità e direzione del movimento relativo. 
+2.	Si, ma solo se coincidono velocità e direzione del movimento relativo.  
+3.	Dipende solamente dalla forma del corpo solido.  
+
+2021   Che cosa è il vento relativo? 
+1.	La differenza di velocità dell'aria che si riscontra sulle due semiali in virata. 
+2.	Il vento incontrato dall'ala in quanto in movimento o il movimento relativo dell'aria rispetto all'ala. 
+3.	La differenza di velocità dell'aria su estradosso ed intradosso dell'ala in volo. 
+ 
+2022   La velocità di cui è dotata un'ala e le forze a essa applicate quando vola sono: 
+1.	grandezze fisiche  rappresentabili con vettori (con direzione, verso, intensità e punto d’applicazione definiti) che si possono comporre o scomporre tra loro. 
+2.	grandezze fisiche che non si possono rappresentare graficamente ma che possono sommarsi e sottrarsi geometricamente. 
+3.	grandezze numeriche semplici con le quali è quindi possibile effettuare qualsiasi operazione. 
+ 
+2023   Quando si parla di pressione di un fluido su una superficie che cosa s’intende? 
+1.	È il prodotto della superficie per la forza che il fluido esercita sulla stessa.  
+2.	È il rapporto tra la forza che il fluido esercita sulla superficie e il quadrato della superficie stessa. 
+3.	È la forza che il fluido stesso esercita sull’ unità di superficie.  
+ 
+2024   La pressione di un fluido in movimento all'interno di un tubo di flusso è la somma di: 
+1.	pressione dinamica e peso del fluido. 
+2.	pressione dinamica e pressione statica. 
+3.	pressione statica e portata del tubo di flusso. 
+ 
+2025   Che cosa è la pressione statica di un fluido? 
+1.	È il rapporto tra peso e velocità del fluido. 
+2.	È il rapporto tra peso e densità del fluido. 
+3.	È il peso della colonna di fluido che insiste sull’unità di superficie.  
+ 
+2026   Che cosa è la pressione dinamica di un fluido? 
+1.	È il rapporto tra la velocità di un fluido in movimento e la sua densità. 
+2.	È il rapporto tra la velocità di un fluido in movimento e la superficie del solido immerso in esso. 
+3.	È la pressione che un fluido esercita sulla superficie di un solido immerso in esso per effetto della velocità di scorrimento. 
+ 
+2027   Che cosa rappresenta l'espressione "1/2 ρ V2"? 
+1.	La densità dell'aria ad una certa velocità. 
+2.	La pressione statica di un fluido la cui densità è pari a "ρ". 
+3.	La pressione dinamica di un fluido la cui densità è pari a "ρ" e la cui velocità è pari a "V".  
+ 
+2028   La portanza e la resistenza sono direttamente proporzionali: 
+1.  alla pressione statica.  
+2.  alla pressione dinamica.  
+3.  alla pressione totale.  
+ 
+2029   I filetti fluidi che incontrano un profilo alare generando portanza, con quale principale differenza scorrono sulle superfici? 
+1.	Differenza di velocità. 
+2.	Differenza di densità. 
+3.	Differenza molecolare. 
+ 
+2030   La velocità dell’aria su un’ala in volo è: 
+1.	maggiore sull'estradosso. 
+2.	maggiore sull'intradosso. 
+3.	identica sulle due superfici dell'ala. 
+ 
+2031   Un profilo in volo genera una pressione dinamica:  
+1.	maggiore sull'estradosso. 
+2.	minore sull'estradosso. 
+3.	identica sulle due superfici dell'ala. 
+ 
+2032   Un profilo in volo genera una pressione statica:  
+1.	identica sulle due superfici dell'ala. 
+2.	maggiore sull'estradosso. 
+3.	minore sull'estradosso. 
+ 
+2033   La legge di Bernoully dice:  
+1.	che la somma della pressione statica e dinamica del fluido non è costante.  
+2.	che la somma della pressione statica e dinamica del fluido è costante. 
+3.	che l'andamento della pressione statica del fluido non dipende da quello della pressione dinamica dello stesso.  
+ 
+2034   Che cosa mette in evidenza la legge di Bernoully in un tubo di Venturi a portata costante? 
+1.	Che variando la sezione del tubo, pressione e velocità del fluido rimangono invariate. 
+2.	Che variando la sezione del tubo, varia solo la pressione dinamica del fluido. 
+3.	Che variando la sezione del tubo variano velocità, pressione statica e pressione dinamica. La pressione totale non varia. 
+ 
+2035   In un tubo di Venturi avente portata costante, al variare della sezione: 
+1.	la velocità del fluido varia. 
+2.	la velocità del fluido non varia. 
+3.	la pressione totale del fluido varia. 
+ 
+2036   In un tubo di Venturi avente portata costante la somma della pressione statica e della pressione dinamica del fluido (pressione totale): 
+1.	è variabile al variare della sezione. 
+2.	è costante al variare della sezione. 
+3.	dipende dalla densità del fluido. 
+ 
+2037   All'interno di un tubo di flusso a portata costante, se la sezione diminuisce: 
+1.	la velocità del fluido aumenta e la sua pressione dinamica diminuisce. 
+2.	la velocità del fluido aumenta e la sua pressione dinamica aumenta. 
+3.	la velocità del fluido aumenta e quindi la pressione totale varia. 
+ 
+2038   All'interno di un tubo di flusso a portata costante dove la sezione aumenta: 
+1.	la velocità del fluido diminuisce e la sua pressione statica aumenta. 
+2.	la velocità del fluido diminuisce e la sua pressione statica diminuisce. 
+3.	la velocità del fluido diminuisce e quindi la pressione totale varia. 
+ 
+2039   L'ala di un deltaplano o di un parapendio utilizza il principio di Bernoully applicato a un tubo Venturi? 
+1.	Si, ma non nel volo in termica. 
+2.	Si. 
+3.	No. 
+ 
+2040   I profili del deltaplano e del parapendio sono principalmente di tipo: 
+1.	biconvesso simmetrico. 
+2.	piano-convesso. 
+3.	concavo-convesso o biconvesso. 
+ 
+2041   Che cosa è la risultante aerodinamica? 
+1.	È la risultante di tutte le forze prodotte dall'ala in movimento rispetto all'aria. 
+2.	È la risultante o somma vettoriale del peso e della portanza. 
+3.	È una forza sempre diretta perpendicolarmente alla traiettoria di volo.  
+2042   La risultante aerodinamica è una forza: 
+1.	perpendicolare alla traiettoria di volo o al vento relativo. 
+2.	sempre parallela alla traiettoria di volo o al vento relativo. 
+3.	diretta verso l'alto e per questo in grado di contrastare la forza peso. 
+ 
+2043   La risultante aerodinamica si scompone in portanza e resistenza. Esse sono rispettivamente:  
+1.	la portanza perpendicolare alla corda alare e la resistenza parallela alla corda alare. 
+2.	la portanza perpendicolare alla traiettoria di volo od alla direzione del vento relativo, la resistenza parallela ad esse. 
+3.	la portanza parallela al vento relativo od alla traiettoria di volo, la resistenza perpendicolare ad essi. 
+ 
+2044   Se un profilo alare è investito da un vento relativo, si può sempre affermare che: 
+1.	si genera portanza. 
+2.	non si genera portanza senza che si generi resistenza. 
+3.	la resistenza generata dipende unicamente dalla forma del profilo. 
+ 
+2045   Nel volo del deltaplano e del parapendio: 
+1.	la resistenza è uguale e opposta alla velocità sulla traiettoria. 
+2.	la resistenza a velocità costante, è uguale e opposta alla componente del peso lungo la traiettoria. 
+3.	la portanza e la resistenza si equilibrano. 
+ 
+2046   La resistenza è una forza aerodinamica che può essere considerata: 
+1.	sempre perpendicolare alla traiettoria di volo. 
+2.	sempre parallela alla corda aerodinamica. 
+3.	sempre parallela alla traiettoria di volo o alla direzione del vento relativo. 
+ 
+2047   Qual è la formula della resistenza? 
+1.	R = 1/2 ρ S Cr V2 
+2.	R = 1/2 ρ S2 Cr V 
+3.	R = 1/2 ρ S Cr V 
+ 
+2048   In quale modo varia la resistenza aerodinamica di un'ala variando la densità dell'aria e la superficie dell'ala stessa? 
+1.	Non varia in alcun modo. 
+2.	Varia proporzionalmente. 
+3.	Varia in modo inversamente proporzionale. 
+ 
+2049   Di quanto varia la resistenza aerodinamica di un profilo alare triplicandone la velocità: 
+1.	del triplo. 
+2.	non varia. 
+3.	diviene nove volte più grande. 
+ 
+2050   Che cosa è il Cr? 
+1.	Un coefficiente numerico che dipende dal carico alare. 
+2.	Un coefficiente numerico che dipende dalla forma del profilo e dalla sua incidenza di volo. 
+3.	Una forza che dipende dalla forma del profilo e dalla sua incidenza di volo. 
+ 
+2051   Da quali tipi di resistenza è composta la resistenza aerodinamica di un'ala di deltaplano o parapendio? 
+1.	Dalla resistenza di attrito, da quella di forma e da quella indotta. 
+2.	Dalla resistenza di forma e da quella indotta. 
+3.	Dalla resistenza di attrito e da quella di forma. 
+ 
+2052   Che cosa è la resistenza di forma? 
+1.	È la parte di resistenza dovuta alla forma più o meno aerodinamica di un corpo. 
+2.	È la parte di resistenza dovuta alle dimensioni del corpo indipendentemente dalla forma aerodinamica dello stesso. 
+3.	È una forza il cui valore può essere nullo se la forma del corpo è molto aerodinamica. 
+ 
+2053   Su quale tipo di resistenza influisce principalmente lo spessore del profilo alare? 
+1.	Sulla resistenza di attrito. 
+2.	Sulla resistenza indotta. 
+3.	Sulla resistenza di forma. 
+ 
+2054   La resistenza di forma: 
+1.	aumenta all'aumentare della velocità. 
+2.	diminuisce all'aumentare della velocità. 
+3.	non varia al variare della velocità. 
+ 
+2055   Che cosa è la resistenza di attrito? 
+1.	È la parte di resistenza dovuta alle dimensioni dell'ala. 
+2.	È la parte di resistenza dovuta all'attrito dell'aria sulla superficie dell'ala. 
+3.	È la parte di resistenza dovuta alla presenza inevitabile dei vortici marginali. 
+ 
+2056   Che cosa s’intende per strato limite? 
+1.	Lo strato d'aria compreso tra superficie alare e superficie interna del tubo di flusso in cui vola l'ala. 
+2.	Lo strato d'aria immediatamente esterno al tubo di flusso in cui è immersa l'ala. 
+3.	Lo strato d'aria più prossimo all'ala compreso tra la superficie alare e lo strato nel quale la velocità del vento relativo è quella di regime. 
+ 
+2057   La resistenza d'attrito: 
+1.	dipende anche dalla natura dello strato limite. 
+2.	non dipende dalla natura dello strato limite. 
+3.	dipende dalla forma e dalle dimensioni dell'ala. 
+ 
+2058   Come varia la resistenza d'attrito al variare della velocità? 
+1.  Aumenta al diminuire della velocità. 
+2.  Aumenta all'aumentare della velocità. 
+3.  Rimane costante al variare della velocità. 
+ 
+2059   Che cosa è la resistenza indotta? 
+1.	È la parte di resistenza dovuta al prodursi dei vortici marginali o d'estremità alare. 
+2.	È la parte di resistenza dovuta all'attrito dell'aria sulla superficie alare. 
+3.	È la parte di resistenza dovuta alla forma e alle dimensioni dell'ala. 
+ 
+2060   La resistenza indotta è originata: 
+1.	dall'attrito dell'aria sulla superficie alare che produce i vortici marginali. 
+2.	dallo spessore più o meno rilevante dell'ala che oltre certi valori produce vortici marginali. 
+3.	dalla differenza di pressione statica sotto e sopra l'ala. 
+ 
+2061   E' vero che la resistenza indotta dipende dall'allungamento alare? 
+1.	Si e da nessun altro parametro o fattore. 
+2.	Si, anche da esso ed è minore quando è maggiore l'allungamento. 
+3.	No. 
+ 
+2062   La resistenza indotta varia al variare della velocità? 
+1.	Si, aumenta all'aumentare della velocità. 
+2.	No. 
+3.	Si, diminuisce all'aumentare della velocità. 
+ 
+2063   A parità di altre condizioni un'ala con allungamento maggiore: 
+1.	è più efficiente. 
+2.	è meno efficiente.  
+3.	è più resistente.  
+ 
+2064   Lo scopo principale per cui si tende ad aumentare l'allungamento è: 
+1.	ottenere minore resistenza di forma. 
+2.	ottenere minore resistenza d'attrito. 
+3.  ottenere minore resistenza indotta.  
+ 
+2065   L'unica resistenza che diminuisce all'aumentare della velocità è: 
+1.	quella d'attrito. 
+2.	quella indotta.  
+3.	quella di forma. 
+ 
+2066   In che modo la resistenza aerodinamica è proporzionale alla velocità? 
+1.	Direttamente. 
+2.	Inversamente. 
+3.	Direttamente e al quadrato della stessa. 
+ 
+2067   Diminuendo la resistenza aerodinamica di un profilo a parità di altre condizioni si ottiene: 
+1.	un miglioramento delle prestazioni con una maggiore efficienza. 
+2.	solo una maggiore velocità massima. 
+3.	solo un minor tasso minimo di caduta.  
+ 
+2068   La resistenza aerodinamica varia al variare dell'angolo d'incidenza? 
+1.	No. 
+2.	Si, ma solo in virata. 
+3.	Si. 
+ 
+2069   Si può diminuire la resistenza aerodinamica sino a ridurla a zero in volo? 
+1.	Si, variando opportunamente l'angolo d'incidenza 
+2.	Si, in almeno due modi 
+3.	No 
+ 
+2070   Adottando un profilo sottilissimo: 
+1.	la resistenza assume valore zero con incidenza zero. 
+2.	la resistenza non si annulla comunque. 
+3.	la resistenza si annulla se la superficie alare è perfettamente levigata. 
+ 
+2071   Che cos'è la portanza? 
+1.	È una forza ed è la componente della risultante aerodinamica, parallela alla direzione del vento relativo o alla traiettoria di volo. 
+2.	È una forza ed è la componente orizzontale della risultante aerodinamica. 
+3.	È una forza ed è la componente della risultante aerodinamica perpendicolare alla traiettoria di volo o alla direzione del vento relativo. 
+ 
+2072   La portanza, in un profilo convenzionale, è generata prevalentemente: 
+1.	dalla diminuzione di pressione statica in corrispondenza dell'estradosso. 
+2.	dalla diminuzione di pressione dinamica in corrispondenza dell'estradosso. 
+3.	dall'aumento di pressione statica sull'estradosso. 
+ 
+2073   La portanza di un'ala dipende: 
+1.	dal suo disegno, dalla densità dell'aria, dalla superficie alare, dalla velocità con cui si muove e dalla sua incidenza. 
+2.	dal suo disegno e dall'incidenza solamente. 
+3.	dall'incidenza solamente. 
+ 
+2074   Qual è la formula della portanza? 
+1.	P = 1/2 ρ S2 Cp V 
+2.	P = 1/2 ρ S Cp V2 
+3.	P = 1/2 ρ S Cp V 
+ 
+2075   Nella formula della portanza il fattore Cp detto coefficiente di portanza è: 
+1.	una forza perpendicolare alla traiettoria di volo o alla direzione del vento relativo. 
+2.	una velocità che dipende dall'incidenza del profilo. 
+3.	un fattore numerico che dipende dal disegno e dall'incidenza del profilo. 
+ 
+2076   Lo spessore del profilo influisce normalmente sul valore della portanza e della resistenza che esso genera? 
+1.	Si, la portanza mediamente aumenta mentre la resistenza diminuisce con l'aumentare dello spessore. 
+2.	Si, portanza e resistenza aumentano a parità di altre condizioni con l'aumentare dello spessore. 
+3.	Si, la portanza diminuisce mentre la resistenza mediamente aumenta con l'aumentare dello spessore. 
+ 
+2077   La portanza e la resistenza dipendono anche dalla densità dell'aria? 
+1.	Si. 
+2.	No. 
+3.	Non sempre. 
+ 
+2078   Che cosa è l'angolo d'incidenza? 
+1.	È l'angolo compreso tra la corda alare e la direzione del vento relativo o traiettoria di volo. 
+2.	È l'angolo compreso tra la corda alare e il piano orizzontale passante per il centro di pressione. 
+3.	È l'angolo compreso tra la corda alare e la direzione del vento meteorologico quando l'ala è in movimento.  
+ 
+2079   L'assetto di un profilo rappresenta un'entità angolare ben distinta dall'incidenza. Esso è per definizione: 
+1.	l'angolo compreso tra la corda alare ed il piano orizzontale. 
+2.	l'angolo compreso tra la corda alare e la direzione del vento relativo o traiettoria di volo. 
+3.	l'angolo compreso tra la direzione del vento relativo o traiettoria di volo ed il piano orizzontale. 
+ 
+2080   Se un profilo alare vola con un assetto di +6° e un’incidenza di +10° la sua traiettoria è: 
+1.	ascendente e inclinata verso l'alto rispetto al piano orizzontale di 4°. 
+2.	discendente e inclinata verso il basso rispetto al piano orizzontale di 4°. 
+3.	orizzontale. 
+ 
+2081   In volo incidenza e assetto di un profilo coinciderebbero: 
+1.	qualora la traiettoria di volo fosse orizzontale in aria calma. 
+2.	qualora la traiettoria di volo fosse orizzontale. 
+3.	qualora la traiettoria di volo fosse curvilinea. 
+ 
+2082   Perché nella formula della resistenza R = 1/2 ϱ Cr S V2 non compare l'angolo d'incidenza al cui variare varia la resistenza stessa? 
+1.	Perché al variare dell'incidenza varia la sola superficie proiettata. 
+2.	Perché un'altra formula lega incidenza e resistenza aerodinamica. 
+3.	Perché al variare dell'incidenza varia il Cr. 
+ 
+2083   Per aumentare la portanza di un certo profilo alare è sufficiente aumentare l'angolo d'incidenza? 
+1.	Si, senza alcuna limitazione. 
+2.	Si, da zero a venti gradi. 
+3.	Si, ma entro ben precisi limiti. 
+ 
+2084   Variando l'incidenza di un profilo la portanza: 
+1.	varia. 
+2.	non varia. 
+3.	varia mentre la resistenza non varia. 
+ 
+2085   Perché nella formula della portanza P = 1/2 ϱ Cp S V2 non compare l'angolo d'incidenza al cui variare varia la portanza stessa? 
+1.	Perché al variare dell'incidenza varia la sola superficie proiettata. 
+2.	Perché un'altra formula lega incidenza e portanza. 
+3.	Perché al variare dell'incidenza varia il Cp. 
+ 
+2086   Come può in volo il pilota variare la portanza? 
+1.	Diminuendo la resistenza aerodinamica. 
+2.	Variando l'angolo d'incidenza entro certi limiti. 
+3.	Mantenendo lo stesso angolo di assetto. 
+ 
+2087   Il peso del sistema ala-pilota, cui durante il volo si oppone la risultante aerodinamica, è una forza verticale diretta verso il basso, che si scompone in: 
+1.  trazione nella direzione della traiettoria di volo e peso apparente perpendicolarmente alla stessa. 
+2.  trazione perpendicolarmente alla traiettoria di volo e peso apparente nella direzione della stessa. 
+3.  trazione nella direzione della traiettoria di volo e peso apparente in direzione opposta. 
+ 
+2088   L'energia motrice nel volo in deltaplano e parapendio è fornita: 
+1.	da forze di natura aerodinamica. 
+2.	dalla forza peso. 
+3.	dall'inerzia cinetica.  
+ 
+2089   Come si chiama l'energia sfruttata dal sistema ala pilota in volo planato? 
+1.	Energia termica. 
+2.	Energia endotermica. 
+3.	Energia potenziale.  
+ 
+2090   Che cosa è la trazione nel volo planato? 
+1.	È una forza ed è la componente del peso orientata nella direzione della traiettoria di volo. 
+2.	È una forza ed è la componente del peso orientata perpendicolarmente alla traiettoria di volo.  
+3.	È una forza che varia al variare della pendenza della traiettoria, ma è indipendente dal peso.  
+ 
+2091   Com’è possibile variare il valore della trazione in volo? 
+1.	Non può essere variato. 
+2.	Variando la pendenza della traiettoria di volo. 
+3.	Variando la sola resistenza aerodinamica. 
+ 
+2092   In volo librato rettilineo uniforme il peso apparente, che costituisce la componente del peso perpendicolare alla traiettoria di volo, è equilibrato dalla: 
+1.	resistenza. 
+2.	trazione. 
+3.	portanza. 
+ 
+2093   In virata come variano il peso apparente e la superficie proiettata dell'ala?  
+1.	Aumentano entrambi, il peso apparente a causa dell'accelerazione centripeta, la superficie proiettata per motivi geometrici. 
+2.	Aumenta il peso apparente a causa dell'accelerazione centrifuga e diminuisce la superficie proiettata per motivi geometrici. 
+3.	Non variano né il peso apparente né la superficie proiettata. 
+ 
+2094   In virata a causa della forza centrifuga e dell’'inclinazione laterale: 
+1.	il peso apparente è maggiore e la superficie proiettata è minore. 
+2.	il peso è minore e la superficie é minore. 
+3.	la resistenza aerodinamica è minore. 
+ 
+2095   Che cosa s’intende per carico alare? 
+1.	Il rapporto tra il peso sostentato dall'ala e la superficie della stessa. 
+2.	Il rapporto tra la superficie dell'ala ed il peso sostentato dalla stessa. 
+3.	Il carico di rottura dell'ala. 
+ 
+2096   Se il pilota pesa 78 kg, l’attrezzatura di volo, ala compresa, 22 kg e la superficie proiettata è 25 m2, quanto sarà il carico alare? 
+1.	6 kg/m2. 
+2.	9 kg/m2. 
+3.	4 kg/m2. 
+ 
+2097   Se a seguito di una parziale "chiusura" del parapendio la sua superficie alare si riduce: 
+1.	il carico alare rimane lo stesso. 
+2.	il carico alare aumenta. 
+3.	il carico alare si riduce.  
+2098   Che cosa s’intende per fattore di carico? 
+1.	Un fattore numerico capace di indicare quante volte il peso del sistema ala-pilota varia per effetto dell'accelerazione centrifuga in virata o di altre accelerazioni positive o negative durante le manovre. 
+2.	Un fattore numerico capace di indicare di quante volte aumenta la resistenza aerodinamica in virata per effetto della forza centrifuga. 
+3.	Un fattore numerico caratteristico di un tipo di deltaplano o parapendio collegato alla robustezza delle sue strutture verificata in tutti i tipi di manovra in volo. 
+ 
+2099   Durante una virata al sistema ala-pilota viene applicata, per effetto della forza centrifuga, un’accelerazione pari a due "G". Si può affermare che: 
+1.	il fattore il carico rimane invariato.  
+2.	il fattore di carico è raddoppiato, ma è come se il peso del sistema fosse invariato. 
+3.	il fattore di carico è raddoppiato ed è come se il peso del sistema fosse doppio.  
+ 
+2100   Se durante il volo per qualche motivo il fattore di carico raddoppia, il carico alare 
+1.  può anche rimanere invariato. 
+2.	raddoppia. 
+3.	viene dimezzato.  
+ 
+2101   Che cosa s’intende per centro di pressione o di spinta? 
+1.	È il punto di applicazione della forza peso. 
+2.	È il punto in cui sempre s’incrociano i tre assi dell'ala, quello di beccheggio di rollio e d'imbardata. 
+3.	È il punto di applicazione della risultante di tutte le forze aerodinamiche generate dall'ala in movimento nell'aria. 
+ 
+2102   In volo può variare la posizione del centro di pressione? 
+1.	No, perché non dipende da fattori che variano in volo. 
+2.	Si, ma solo per certi tipi di profilo. 
+3.	Si, al variare dell'angolo d'incidenza. 
+ 
+2103   Come varia mediamente la posizione del centro di pressione al variare dell'incidenza su profili autostabili? 
+1.	Diminuendo l'incidenza il centro di pressione avanza ed aumentando l'incidenza il centro di pressione arretra. 
+2.	Diminuendo l'incidenza il centro di pressione arretra ed aumentando l'incidenza il centro di pressione avanza. 
+3.	Al variare dell'incidenza il centro di pressione non si sposta. 
+ 
+2104   Che cosa s’intende per baricentro di un apparecchio? 
+1.	Il punto di applicazione della forza peso. 
+2.	Il punto di applicazione della risultante aerodinamica. 
+3.	Il punto di intersezione degli assi dell'apparecchio. 
+ 
+2105   Dove si trova normalmente il baricentro? 
+1.	Coincide con il baricentro del solo pilota. 
+2.	Si trova tra il baricentro del pilota e quello della struttura. 
+3.	Si trova nel punto d’intersezione degli assi del sistema. 
+ 
+2106   La posizione del baricentro si sposta 
+1.	solo a seguito di manovre attorno all'asse trasversale. 
+2.	solo a seguito di manovre attorno all'asse longitudinale. 
+3.	sia a seguito di manovre attorno all'asse trasversale che longitudinale. 
+ 
+2107   L'efficienza aerodinamica è: 
+1.	il rapporto tra portanza e resistenza.  
+2.	il rapporto tra carico alare e velocità. 
+3.	il rapporto tra superficie alare e portanza. 
+
+2108   L'efficienza aerodinamica è:  
+1.	il rapporto tra la sua superficie ed il peso trasportato. 
+2.	il rapporto tra il peso trasportato e la sua velocità massima. 
+3.	il rapporto tra Cp e Cr. 
+ 
+2109   L'efficienza di un'ala si può esprimere come:  
+1.	il rapporto tra la velocità orizzontale e quella verticale.  
+2.	il rapporto tra la velocità verticale e quella orizzontale.  
+3.	il rapporto tra superficie e peso.  
+ 
+2110   Il rapporto tra portanza e resistenza generate da un'ala a un certo regime di volo, ne rappresenta l'efficienza e varia: 
+1.	al variare dell'angolo d'incidenza. 
+2.	al variare della superficie alare. 
+3.	al variare del carico alare. 
+ 
+2111   L'efficienza massima di un parapendio è uguale a 8. Che cosa significa? 
+1.	In aria calma può essere percorso 1 km perdendo 800 m di quota.  
+2.	Il rapporto tra apertura alare e corda alare è pari a 8.  
+3.	In aria calma possono essere percorsi 8 km perdendo 1000 m di quota. 
+ 
+2112   Al variare dell’incidenza varia l’efficienza di un’ala perché: 
+1.	varia solo il coefficiente di portanza Cp dell'ala. 
+2.	varia solo il coefficiente di resistenza Cr dell'ala. 
+3.	variano i coefficienti di portanza e resistenza Cp e Cr. 
+ 
+2113   L'efficienza massima varia al variare del peso del pilota? 
+1.	Si, anche se l'ala al variare del peso non si deforma. 
+2.	No, purché al variare del peso l'ala non si deformi e l'aria sia calma. 
+3.	No, anche se l'ala al variare del peso si deforma.  
+ 
+2114   Volando in aria calma due piloti di peso diverso utilizzano lo stesso deltaplano o parapendio. Che risultati ottengono volando al medesimo regime di volo, se l'ala non si deforma al variare del carico? 
+1.  Percorrono la stessa distanza, ma in tempi diversi. 
+2.  Percorrono distanze diverse, ma impiegano uguali tempi. 
+3.  Percorrono distanze diverse ed in tempi diversi anche se l'ala non si deforma in funzione del peso. 
+ 
+2115   Volando in aria calma il peso del pilota, se l'ala non si deforma al variare del carico, influenzerà: 
+1.	la sola efficienza aerodinamica. 
+2.	l'efficienza aerodinamica e la velocità all'aria, ma non il tasso di caduta. 
+3.	la velocità all'aria ed il tasso di caduta, ma non l'efficienza aerodinamica. 
+ 
+2116   Un’ala in volo, iniziando una virata: 
+1.	aumenta il proprio tasso di caduta.  
+2.	mantiene inalterato il tasso di caduta.  
+3.	diminuisce il proprio tasso di caduta.  
+ 
+2117   Aumentando il carico alare a condizione che l'ala non si deformi e volando con una certa incidenza, si realizzeranno:  
+1.	velocità e tasso di caduta maggiori.  
+2.	velocità e tasso di caduta minori.  
+3.	velocità maggiore e tasso di caduta minore.  
+ 
+2118   E' possibile che un deltaplano o un parapendio volino stabilmente su una traiettoria orizzontale in condizioni di aria calma? 
+1.	Si, se il loro profilo è molto sofisticato. 
+2.	No, perché ciò significherebbe in sostanza che è stato azzerato il valore della resistenza aerodinamica. 
+3.	Si, avendo un basso carico alare. 
+ 
+2119   Traiettorie orizzontali stabili sono realizzabili con deltaplano e parapendio: 
+1.	solo rispetto al terreno in condizioni di vento in coda sostenuto. 
+2.	solo rispetto al terreno in condizioni di ascendenza. 
+3.	anche rispetto all'aria in condizioni di ascendenza. 
+ 
+2120   La polare di un'ala è una rappresentazione grafica che: 
+1.	indica i valori di velocità al suolo al variare dell'incidenza.  
+2.	indica i valori dei coefficienti di portanza e resistenza al variare dell'angolo di assetto. 
+3.	indica i valori dei coefficienti di portanza e resistenza al variare dell'angolo d’incidenza. 
+ 
+2121   Che cosa è la polare delle velocità o odografa di un'ala? 
+1.	È un grafico sul quale sono riportati i valori delle velocità orizzontali e delle velocità verticali dell'ala al variare dell'angolo d'incidenza. 
+2.	È un grafico sul quale sono riportati i valori della portanza e della resistenza al variare dell'angolo d'incidenza. 
+3.	È un grafico sul quale sono riportati i valori della trazione e della resistenza al variare dell'angolo d'incidenza. 
+ 
+2122   Se l'ala non si deforma, al variare del peso del pilota la polare delle velocità: 
+1.	si modifica e non si sposta rispetto agli assi cartesiani.  
+2.	non si modifica e non si sposta rispetto agli assi cartesiani.  
+3.	si sposta rispetto agli assi cartesiani. 
+ 
+2123   Quali valori si possono ricavare dalla polare delle velocità di un'ala? 
+1.	Quelli della portanza al variare dell'incidenza. 
+2.	Quelli della resistenza al variare dell'incidenza. 
+3.	Quelli delle velocità orizzontali e verticali ai vari angoli d'incidenza. 
+ 
+2124   Sulla polare delle velocità di un'ala normalmente il minimo tasso di caduta si realizza volando: 
+1.	all'incidenza alla quale corrisponde il minimo valore della resistenza. 
+2.	all'incidenza alla quale corrisponde la massima efficienza in aria calma. 
+3.	ad un'incidenza maggiore di quella cui corrisponde la massima efficienza in aria calma. 
+ 
+2125   Sulla polare delle velocità di un'ala normalmente la massima velocità orizzontale si realizza volando: 
+1.	al valore d'incidenza cui corrisponde una resistenza maggiore a quella che si ottiene alla massima efficienza aria. 
+2.	al valore d'incidenza cui corrisponde il miglior rapporto superficie proiettata / allungamento.  
+3.	al valore d'incidenza massimo. 
+ 
+2126   Sulla polare delle velocità di un'ala normalmente la massima efficienza in aria calma si realizza volando: 
+1.	con l'angolo d'incidenza cui corrisponde il valore massimo del rapporto tra resistenza e portanza. 
+2.	con l'angolo d'incidenza cui corrisponde il valore massimo del rapporto tra portanza e resistenza. 
+3.	con l'angolo d'incidenza cui corrisponde il valore massimo del rapporto tra portanza e peso. 
+ 
+2127   In condizioni di ascendenza l'efficienza massima al suolo aumenta rispetto a quella che si otterrebbe in aria calma. Adeguando la polare delle velocità di un'ala a queste condizioni si vede che i migliori risultati si realizzano comunque volando: 
+1.	a velocità all'aria maggiore di quelle utilizzate in condizioni di aria calma. 
+2.	a velocità all'aria minore di quelle utilizzate in condizioni di aria calma. 
+3.	alla medesima velocità all'aria che si utilizzerebbe in condizioni di aria calma. 
+ 
+2128   In condizioni di discendenza l'efficienza massima al suolo diminuisce rispetto a quella che si otterrebbe in aria calma. Adeguando la polare delle velocità di un'ala a queste condizioni si vede che i migliori risultati comunque si realizzano volando: 
+1.	a velocità all'aria maggiori di quelle utilizzate in aria calma. 
+2.	a velocità all'aria minori di quelle utilizzate in aria calma. 
+3.	alla medesima velocità all'aria che si utilizzerebbe in condizioni di aria calma. 
+ 
+2129   Con vento a favore la massima efficienza al suolo è maggiore di quella ottenibile in aria calma. Sulla polare delle velocità si vede che i migliori risultati si realizzano comunque volando: 
+1.	ad incidenza maggiore di quella che si utilizzerebbe per ottenere la massima efficienza in aria calma (velocità all'aria minore). 
+2.	ad incidenza minore di quella che si utilizzerebbe per ottenere la massima efficienza in aria calma (velocità all'aria maggiore). 
+3.	all'incidenza che si utilizzerebbe per ottenere la massima efficienza in aria calma. 
+ 
+2130   Con vento contrario la massima efficienza al suolo è minore di quella ottenibile in aria calma. Sulla polare delle velocità si vede che i migliori risultati si realizzano comunque volando: 
+1.	all'incidenza che si utilizzerebbe per ottenere la massima efficienza in aria calma. 
+2.	ad incidenza maggiore di quella che si utilizzerebbe per ottenere la massima efficienza in aria calma (velocità all'aria minore). 
+3.	ad incidenza minore di quella che si utilizzerebbe per ottenere la massima efficienza in aria calma (velocità all'aria maggiore). 
+ 
+2131   A parità di condizioni, di capacità e di ala a disposizione veleggia più a lungo il pilota: 
+1.	più leggero. 
+2.	più pesante. 
+3.	che fa virate più strette. 
+ 
+2132   In condizioni di vento contrario, usando la stessa ala, il pilota più pesante: 
+1.	volerà con un'efficienza massima al suolo minore di quella realizzata dal pilota più leggero. 
+2.	volerà con un’efficienza al suolo identica a quella realizzata dal pilota più leggero. 
+3.	volerà con un'efficienza massima al suolo maggiore di quella realizzata dal pilota più leggero. 
+ 
+2133   In condizioni di vento a favore, usando la stessa ala, il pilota più pesante: 
+1.	volerà con un'efficienza massima al suolo minore di quella realizzata dal pilota più leggero. 
+2.	volerà con un'efficienza massima al suolo maggiore di quella realizzata dal pilota più leggero. 
+3.	volerà con un'efficienza massima al suolo identica a quella realizzata dal pilota più leggero. 
+ 
+2134   In condizioni aerologiche sfavorevoli, quali vento contrario e discendenza, volando con la medesima ala è: 
+1.	sfavorito il pilota più pesante. 
+2.	sfavorito il pilota più leggero. 
+3.	non ci sono differenze. 
+ 
+2135   Che cosa è lo stallo? 
+1.	È una condizione di volo in cui si verifica il distacco dei filetti fluidi dall'ala a causa dell'eccessivo angolo d'incidenza. 
+2.	È una condizione di volo in cui si verifica un calo netto della portanza a causa di una brusca diminuzione dell'angolo d'incidenza. 
+3.	È una condizione di volo in cui si verifica un brusco aumento della resistenza dovuto all'eccessiva velocità. 
+ 
+2136   Lo stallo di un'ala si può verificare:  
+1.	solo a bassa velocità indipendentemente dall'angolo d'incidenza. 
+2.	solo a bassa velocità con incidenza oltre il valore critico. 
+3.	a qualsiasi velocità con incidenza oltre il valore critico. 
+ 
+ 
+2137   In virata la velocità minima di volo e quella di stallo sono identiche a quelle del volo rettilineo? 
+1.	No, sono maggiori. 
+2.	Si. 
+3.	No, sono minori. 
+ 
+2138   La velocità di stallo è influenzata dal carico alare? 
+1.	No. 
+2.	Si, aumenta con l'aumentare del carico alare. 
+3.	Si, diminuisce con l'aumentare del carico alare. 
+ 
+2139   E' possibile con il deltaplano e il parapendio andare in stallo ad alta velocità? 
+1.	No. 
+2.	Solo in virata. 
+3.	Si, se si raggiunge e si supera il valore critico dell'angolo di incidenza. 
+ 
+2140   Un'ala stalla normalmente a diversi angoli d’incidenza se varia la velocità? 
+1.	Si, infatti lo stallo dipende solo dalla velocità. 
+2.	No, lo stallo non dipende dalla velocità ma solo dall'angolo d'incidenza. 
+3.	No, lo stallo non dipende dalla velocità né dall'angolo d'incidenza. 
+ 
+2141   Che cosa s’intende per autostabilità di un profilo? 
+1.	Una tendenza a cabrare o picchiare a seguito di un qualsiasi intervento del pilota sui comandi. 
+2.	Una tendenza a picchiare comunque dopo il verificarsi di uno stallo accentuato. 
+3.	Una tendenza a tornare, autonomamente, alle condizioni di equilibrio dinamico anche senza l'intervento del pilota. 
+ 
+2142   Perché deltaplano e parapendio sono macchine considerate autostabili? 
+1.	Perché reagiscono alle sollecitazioni aerodinamiche rispetto agli assi di rotazione tendendo a ritornare automaticamente in condizioni di equilibrio. 
+2.	Solo perché a un movimento rispetto all'asse longitudinale reagiscono con una tendenza a ritornare automaticamente in condizioni di equilibrio. 
+3.	Solo perché a un movimento rispetto all'asse verticale reagiscono con una tendenza a ritornare automaticamente in condizioni di equilibrio. 
+ 
+2143   Che cosa succede al sistema ala - pilota se il suo baricentro viene abbassato rispetto al centro di pressione? 
+1.	Aumenta la sola stabilità laterale. 
+2.	Aumenta la stabilità in beccheggio e rollio. 
+3.	Varia semplicemente lo sforzo di azionamento dei comandi. 
+ 
+2144   La posizione bassa del baricentro del parapendio comporta entro certi limiti: 
+1.	una maggiore stabilità in volo. 
+2.	una minore stabilità in volo. 
+3.	un minore sforzo di azionamento dei comandi nel parapendio. 
+ 
+2145   La posizione bassa del baricentro del parapendio comporta: 
+1.	una minore stabilità. 
+2.	un minore sforzo di azionamento dei comandi nel parapendio. 
+3.	una possibilità di avere delle oscillazioni più ampie.  
+ 
+2146   Lo svergolamento di un'ala, contribuisce alla stabilità in volo? 
+1.	No. 
+2.	Si. 
+3.	Si, se lo svergolamento è adeguatamente calcolato. 
+ 
+2147   Volando in prossimità del terreno il deltaplano acquista prestazioni. Ciò è dovuto: 
+1.	al fatto che vicino a terra il pilota istintivamente aumenta l'incidenza. 
+2.	a un fenomeno detto "effetto suolo". 
+3.	solo al fatto che molto vicino al terreno sovente vi sono piccole termiche. 
+ 
+2148   A che cosa è dovuto principalmente l'effetto suolo? 
+1.	Solo ad una compressione dell’aria al suolo dovuta all’avvicinarsi dell’ala ad esso. 
+2.	Ad una riduzione della resistenza indotta all’approssimarsi dell’ala al suolo.  
+3.	A nulla in generale, perché trattasi solo di una sensazione del pilota. 
+ 
+2149   Che cosa s’intende per "configurazione inusuale"? 
+1.	Una situazione di volo in condizioni ambientali e meteorologiche estreme. 
+2.	Una situazione di volo con un numero di passeggeri eccedente quello previsto dal manuale d'impiego. 
+3.	Una variazione di geometria e/o un comportamento anomalo del mezzo normalmente non indotti dal pilota direttamente, come tumbling, chiusure, autorotazioni positive e negative, stalli paracadutali ecc. 
+ 
+2150   Quale parametro di volo può provocare una "configurazione inusuale"? 
+1.	L'angolo d'incidenza se eccede certi valori. 
+2.	L'inclinazione in virata se eccede i 15 o 20 gradi. 
+3.	La velocità al suolo se è eccessiva. 
