@@ -51,7 +51,11 @@ function esame_quiz_genera(sqldb,success){
 
   //if 30 then use the rules for exam see (http://www.deltaclubdolada.it/wp-content/uploads/VDS_QUIZ.pdf)
   if (nquiz == 30){
-    var query = "select * from quiz_esame_30_para;";
+    if (  $('input[name="deltaplano"]').is(":checked") ){
+      var query = "select * from quiz_esame_30;";
+    }else{
+      var query = "select * from quiz_esame_30_para;";
+    }
   }else{
     var query = "select * from quiz WHERE quiz_id IN (SELECT quiz_id FROM quiz ORDER BY RANDOM() LIMIT "+nquiz.toString()+") order by quiz_id;";
   }
