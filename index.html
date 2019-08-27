@@ -26,7 +26,7 @@
 </head>
 
 <body id="page-top">
-  
+
   <div id="loader-para">
     <img src="./img/ag_windsock.gif"/>
   </div>
@@ -76,23 +76,23 @@
           <div class="no-print mobile" id="recap_errors_esame_mobile">
             <div class="card_mobile">
               <div class="card_body_mobile">
-                <input type="number" name="nquiz" min="1" max="100" value=30 hidden>
+                <input type="number" name="nquiz" min="1" max="100" value=30 >
                 <button class="btn btn-info esame_quiz_genera" data-toggle="tooltip" title="Rigenera il Quiz"><i class="fas fa-random"></i></button>
                 <div class="inline"><span class="" id="risposte_corrette_esame_mobile">0</span><span><i class="fas fa-check-circle"></i></span></div>
                 <div class="inline"><span class="" id="risposte_errate_esame_mobile">0</span><span><i class="fas fa-times-circle"></i></span></div>
-                <hr></hr><div class='tot_nq_esame'></div>                
+                <hr></hr><div class='tot_nq_esame'></div>
                 <button class="btn btn-info" onclick="reset_quiz_esame();" data-toggle="tooltip" title="Azzera le risposte"><i class="fas fa-undo-alt"></i></button>
                 <button class="btn btn-dark print_quiz" title="Stampa il Test" data-toggle="tooltip"><i class="fas fa-print"></i></button>
               </div>
             </div>
           </div>
-          
+
           <div class="col-lg-2 mx-auto no-print desktop" id="recap_errors_esame">
             <div class="card">
               <h5 class="card-header">Risposte</h5>
               <div class="card-body">
                 <button class="btn btn-info esame_quiz_genera" data-toggle="tooltip" title="Rigenera il Quiz"><i class="fas fa-random"></i>Genera</button>
-                <input type="number" name="nquiz" min="1" max="100" value=30 hidden>
+                <input type="number" name="nquiz" min="1" max="100" value=30 >
                 <hr></hr>
                 <div class=""><span class="btn btn-success" id="risposte_corrette_esame">0</span><span>corrette</span></div>
                 <div class=""><span class="btn btn-warning" id="risposte_errate_esame">0</span><span>errate</span></div>
@@ -120,7 +120,7 @@
             <tbody>
             </tbody>
             </table>
-            
+
           </div>
 
         </div>
@@ -139,12 +139,12 @@
       </div>
     </div>
   </section>
-  
+
   <!-- Test Sequenziale -->
   <section class="content-section bg-light" id="test-seq">
     <div class="container" id='questions-div'>
       <div class="row" style="font-size: x-large;">
-        
+
         <div class="no-print mobile" id="recap_errors_mobile">
             <div class="card_mobile">
               <div class="card_body_mobile">
@@ -184,7 +184,7 @@
             <tbody>
             </tbody>
             </table>
-    		    
+
     		  </div>
         </div>
       </div>
@@ -225,7 +225,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- SMALL MODAL -->
   <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -398,11 +398,11 @@
           <li>inferiore a 80 punti non idoneo;</li>
         </ul>
       </div>
-    
+
       <div class="modal-footer">
         <button type="button" class="btn btn-dark close_modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
-    </div>    
+    </div>
   </div>
 </div>
 
@@ -447,7 +447,7 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  
+
   <!-- Plugin Datatables CDN -->
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
