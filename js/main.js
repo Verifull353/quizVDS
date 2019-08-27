@@ -53,8 +53,10 @@ function esame_quiz_genera(sqldb,success){
   if (nquiz == 30){
     if (  $('input[name="deltaplano"]').is(":checked") ){
       var query = "select * from quiz_esame_30;";
+      console.log('using quiz_esame_30 view (full quiz for hangglider)');
     }else{
       var query = "select * from quiz_esame_30_para;";
+      console.log('using quiz_esame_30_para view (quiz for paragliding)');
     }
   }else{
     var query = "select * from quiz WHERE quiz_id IN (SELECT quiz_id FROM quiz ORDER BY RANDOM() LIMIT "+nquiz.toString()+") order by quiz_id;";
@@ -341,6 +343,15 @@ $(document).ready(
             });
             reset_quiz_esame();
             $('.esame_quiz_genera').on('click',function(){
+              $('#esame-tabella tbody').empty();
+              esame_quiz_genera(sqldb,function(){
+               //after loading data to table
+              });
+              reset_quiz_esame();
+              enable_quiz_buttons();
+            });
+
+            $('input[name="deltaplano"]').change(function() {
               $('#esame-tabella tbody').empty();
               esame_quiz_genera(sqldb,function(){
                //after loading data to table
