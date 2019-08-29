@@ -323,7 +323,7 @@ $(document).ready(
         loadBinaryFile('./js/quiz_VDS.sqlite', function(data){
 
           //var sqldb = new SQL.Database(data);
-          initSqlJs({ locateFile: filename => `/js/sqljs/${filename}` }).then(function(SQL){
+          initSqlJs({ locateFile: filename => `./js/sqljs/${filename}` }).then(function(SQL){
             // Load the db
             sqldb = new SQL.Database(data);
 
