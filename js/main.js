@@ -321,6 +321,12 @@ $(document).ready(
 
 
         loadBinaryFile('./js/quiz_VDS.sqlite', function(data){
+
+          //var sqldb = new SQL.Database(data);
+          initSqlJs({ locateFile: filename => `/js/sqljs/${filename}` }).then(function(SQL){
+            // Load the db
+            sqldb = new SQL.Database(data);
+
             var sqldb = new SQL.Database(data);
             // Database is ready
             var res = sqldb.exec("select distinct sezione from quiz order by quiz_id;");
@@ -380,11 +386,9 @@ $(document).ready(
               });
               reset_quiz_sequenziale();
               enable_quiz_buttons_sequenziale();
-
-
               //$('#argomento-tabella').DataTable();
-
             })
+          });
         });
 
 
