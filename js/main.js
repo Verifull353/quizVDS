@@ -22,6 +22,12 @@ var tot_points;
 var quiz_seq_done = 0;
 var quiz_seq_correct = 0;
 
+function scrollToDiv(div_id){
+  $('html, body').animate({
+        scrollTop: $(div_id).offset().top
+    }, 500);
+}
+
 function generate_sections(title,idx){
 
   var bkd = idx%4 + 1;
@@ -48,6 +54,7 @@ function esame_quiz_genera(sqldb,success){
 
   var nquiz = $('input[name="nquiz"]').val();
   quiz_esame_nq = nquiz;
+  minutes = nquiz;
 
   //if 30 then use the rules for exam see (http://www.deltaclubdolada.it/wp-content/uploads/VDS_QUIZ.pdf)
   if (nquiz == 30){
@@ -131,7 +138,7 @@ function loadBinaryFile(path,success) {
 
 function printContent(el){
   var currentscrollpos = $(window).scrollTop();
-
+  $('.tooltip').empty();
   var restorepage = $('body').html();
   var printcontent = $('#' + el).clone();
   $('body').empty().html(printcontent);
@@ -161,6 +168,8 @@ function reset_quiz_sequenziale(){
   quiz_seq_done = 0;
   quiz_seq_correct = 0;
 
+  scrollToDiv('#test-seq');
+
 }
 
 function reset_quiz_esame(){
@@ -180,6 +189,62 @@ function reset_quiz_esame(){
   punti_esame = 0;
   $('.punteggio-esame').html(punti_esame.toString());
 
+  clearInterval(intervalHandle);
+  startCountdown();
+
+  scrollToDiv('#esame');
+
+}
+
+function print_results(){
+
+    clearInterval(intervalHandle);
+    var duration = minutes*60 - secondsRemaining;//$('.timer')[0].innerHTML;
+    var min_done = Math.floor( duration / 60 ).toString();
+    var sec_done = (duration % 60).toString();
+
+    $('#quiz_svolti').html(quiz_esame_done.toString());
+    $('#riepilogo_quiz_div').empty();
+    $('#riepilogo_quiz_div').append( $('#risposte_corrette_esame').parent().html()+'&nbsp;&nbsp;'  );
+    $('#riepilogo_quiz_div').append( $('#risposte_errate_esame').parent().html() + '<p><hr></hr></p>' );
+    if (punti_esame >= parseInt(0.80 * tot_points)){
+      $('#riepilogo_quiz_div').append( '<p><i class="far fa-thumbs-up">&nbsp;</i>Punteggio Esame:&nbsp;<span class="btn btn-success">'+punti_esame.toString()+'</span></p>' );
+    }else{
+      $('#riepilogo_quiz_div').append( '<p><i class="far fa-thumbs-down">&nbsp;</i>Punteggio Esame:&nbsp;<span class="btn btn-danger">'+punti_esame.toString()+'</span></p>' );
+    };
+    $('#riepilogo_quiz_div').append( '<p><hr></hr></p>' );
+    $('#riepilogo_quiz_div').append( '<h1 class="btn btn-light"><i class="fas fa-stopwatch"></i> Durata Prova: '+min_done+' minuti '+sec_done+' secondi</h1><p><hr></hr></p>');
+
+    var err = quiz_esame_done - quiz_esame_correct;
+    console.log(err);
+
+    //if( err == 0){
+    if(punti_esame == tot_points){
+      $('#riepilogo_quiz_div').append('<h1><i class="fas fa-brain"></i><p>PERFETTO!</p> <p>Continua cosi\'!</p><p>Nessun errore.</p><p>'+punti_esame.toString()+'/'+tot_points.toString()+'</p></h1>');
+    //}else if (err == 1)
+    }else if(punti_esame > parseInt(0.85 * tot_points)){
+      $('#riepilogo_quiz_div').append('<h1><i class="fas fa-thumbs-up"></i>Quasi perfetto .. IDONEO</h1>');
+    //}else if (err > 1 && err < 4){
+    }else if (punti_esame >= parseInt(0.80 * tot_points)){
+      $('#riepilogo_quiz_div').append('<h1><i class="fas fa-exclamation-triangle"></i>\
+      <code>idoneo con superamento di una verifica orale, riguardante i quesiti errati;</code>\
+      <p>Sei tra l\'80-85% di risposte corrette, cerca di farne al massimo 1 o nessuno meglio ancora!</p></h1>');
+    }else{
+      $('#riepilogo_quiz_div').append('<h1><i class="fas fa-skull-crossbones"></i>SOMARO - BOCCIATO</h1><p>Hai risposto correttamente a meno dell\'80% delle domande!</p>');
+    }
+
+    if (err>0){
+      $('#riepilogo_quiz_div').append('<hr></hr><h2>Risposte che hai sbagliato:</h2>');
+      var wrong_answers = $('#esame-tabella tr[print_errors="true"]');
+      $.each(wrong_answers,function(wa,obj){
+        console.log(obj);
+        $('#riepilogo_quiz_div').append('<div>'+$(obj).html()+'</div>');
+      });
+    };
+    $('#quiz_modal').fadeIn(1500);
+    quiz_esame_done = 0;
+    quiz_esame_correct = 0;
+    punti_esame = 0;
 }
 
 function enable_quiz_buttons(){
@@ -208,6 +273,7 @@ function enable_quiz_buttons(){
           //alert('SOMARO');
           $(this).removeClass('btn-light');
           $(this).addClass('btn-warning');
+          $(this).addClass('wrong_answer');
           $('#risposte_errate_esame').html( parseInt($('#risposte_errate_esame').html())+1 );
           $('#risposte_errate_esame_mobile').html( parseInt($('#risposte_errate_esame_mobile').html())+1 );
           findCorrect($(this).parent().parent());
@@ -217,56 +283,11 @@ function enable_quiz_buttons(){
 
         quiz_esame_done+=1;
 
-//        if(quiz_esame_done.toString() == $('.tot_nq_esame').html() ){  quiz_esame_nq
         if(quiz_esame_done == quiz_esame_nq ){
-          $('#quiz_svolti').html(quiz_esame_done.toString());
-          $('#riepilogo_quiz_div').empty();
-          $('#riepilogo_quiz_div').append( $('#risposte_corrette_esame').parent().html()+'&nbsp;&nbsp;'  );
-          $('#riepilogo_quiz_div').append( $('#risposte_errate_esame').parent().html() + '<p><hr></hr></p>' );
-          if (punti_esame >= parseInt(0.80 * tot_points)){
-            $('#riepilogo_quiz_div').append( '<p><i class="far fa-thumbs-up">&nbsp;</i>Punteggio Esame:&nbsp;<span class="btn btn-success">'+punti_esame.toString()+'</span></p>' );
-          }else{
-            $('#riepilogo_quiz_div').append( '<p><i class="far fa-thumbs-down">&nbsp;</i>Punteggio Esame:&nbsp;<span class="btn btn-danger">'+punti_esame.toString()+'</span></p>' );
-          };
-          $('#riepilogo_quiz_div').append( '<hr></hr>' );
-
-          var err = quiz_esame_done - quiz_esame_correct;
-          console.log(err);
-
-          //if( err == 0){
-          if(punti_esame == tot_points){
-            $('#riepilogo_quiz_div').append('<h1><i class="fas fa-brain"></i><p>PERFETTO!</p> <p>Continua cosi\'!</p><p>Nessun errore.</p><p>'+punti_esame.toString()+'/'+tot_points.toString()+'</p></h1>');
-          //}else if (err == 1)
-          }else if(punti_esame > parseInt(0.85 * tot_points)){
-            $('#riepilogo_quiz_div').append('<h1><i class="fas fa-thumbs-up"></i>Quasi perfetto .. IDONEO</h1>');
-          //}else if (err > 1 && err < 4){
-          }else if (punti_esame >= parseInt(0.80 * tot_points)){
-            $('#riepilogo_quiz_div').append('<h1><i class="fas fa-exclamation-triangle"></i>\
-            <code>idoneo con superamento di una verifica orale, riguardante i quesiti errati;</code>\
-            <p>Sei tra l\'80-85% di risposte corrette, cerca di farne al massimo 1 o nessuno meglio ancora!</p></h1>');
-          }else{
-            $('#riepilogo_quiz_div').append('<h1><i class="fas fa-skull-crossbones"></i>SOMARO - BOCCIATO</h1><p>Hai risposto correttamente a meno dell\'80% delle domande!</p>');
-          }
-
-          if (err>0){
-            $('#riepilogo_quiz_div').append('<hr></hr><h2>Risposte che hai sbagliato:</h2>');
-            var wrong_answers = $('#esame-tabella tr[print_errors="true"]');
-            $.each(wrong_answers,function(wa,obj){
-              console.log(obj);
-              $('#riepilogo_quiz_div').append('<div>'+$(obj).html()+'</div>');
-            });
-          };
-          $('#quiz_modal').fadeIn(1500);
-          quiz_esame_done = 0;
-          quiz_esame_correct = 0;
-          punti_esame = 0;
+          print_results();
         }
-
-      } else {
-        // doing nothing already tried.
-      }
-
-    })
+      };
+    });
 }
 
 function findCorrect(elem){
@@ -325,7 +346,7 @@ $(document).ready(
           //var sqldb = new SQL.Database(data);
           initSqlJs({ locateFile: filename => `./js/sqljs/${filename}` }).then(function(SQL){
             // Load the db
-            sqldb = new SQL.Database(data);
+            //sqldb = new SQL.Database(data);
 
             var sqldb = new SQL.Database(data);
             // Database is ready
@@ -342,12 +363,23 @@ $(document).ready(
             $('#loader-para').fadeOut('slow');
 
             //quiz esame
-            $('#esame-tabella tbody').empty();
-            esame_quiz_genera(sqldb,function(){
-             //after loading data to table
-             enable_quiz_buttons();
-            });
-            reset_quiz_esame();
+            // $('#esame-tabella tbody').empty();
+            // esame_quiz_genera(sqldb,function(){
+            //  //after loading data to table
+            //  enable_quiz_buttons();
+            // });
+            // reset_quiz_esame();
+            $('#start_exam').on('click',function(){
+              $('#start_exam').fadeOut();
+              $('#esame-div').fadeIn();
+              $('#esame-tabella tbody').empty();
+              esame_quiz_genera(sqldb,function(){
+               //after loading data to table
+               enable_quiz_buttons();
+              });
+              reset_quiz_esame();
+            })
+
             $('.esame_quiz_genera').on('click',function(){
               $('#esame-tabella tbody').empty();
               esame_quiz_genera(sqldb,function(){
@@ -478,3 +510,47 @@ $(document).ready(
 
   }
 );
+
+//..stopwatch timer
+var secondsRemaining;
+var intervalHandle;
+var minutes = 30;
+
+function tick() {
+    // grab the h1
+    //var timeDisplay = document.getElementById("time");
+    var timeDisplay = $('.count_down');
+
+    // turn seconds into mm:ss
+    var min = Math.floor(secondsRemaining / 60);
+    var sec = secondsRemaining - (min * 60);
+
+    // add a leading zero (as a string value) if seconds less than 10
+    if (sec < 10) {
+        sec = "0" + sec;
+    }
+    // concatenate with colon
+    var message = min + ":" + sec;
+    // now change the display
+    $('.count_down').each(function(){
+      $(this).html(message);
+    })
+    //timeDisplay.innerHTML = message;
+
+    // stop if down to zero
+    if (secondsRemaining === 0) {
+        alert("Tempo Scaduto!");
+        print_results();
+    }
+    // subtract from seconds remaining
+    secondsRemaining--;
+}
+
+function startCountdown() {
+    // get contents of the "minutes" text box
+    //var minutes = 30;
+    // how many seconds?
+    secondsRemaining =  minutes * 60;
+    // every second, call the "tick" function
+    intervalHandle = setInterval(tick, 1000);
+}

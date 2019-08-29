@@ -187,8 +187,20 @@ td.border-left{
   content:"/";
 }
 
+.wrong_answer{
+  color:red;
+}
+
+#start_exam{
+  text-align: center;
+}
+
+.timer{
+  text-align: center;
+}
+
 @media print
-{    
+{
     .no-print, .no-print *
     {
         display: none !important;
@@ -229,7 +241,7 @@ td.border-left{
 }
 
 @media only screen and (max-width: 1000px) {
-  
+
   hr{
     margin-top:0px;
     margin-bottom: 0px;
@@ -238,15 +250,15 @@ td.border-left{
   .w25p{
     width:100%;
   }
-  
+
   .mobile{
     display:block;
   }
-  
+
   .desktop{
     display:none;
   }
-  
+
  #recap_errors_esame_mobile, #recap_errors_mobile{
     position: absolute;
     left: 0;
@@ -260,47 +272,47 @@ td.border-left{
 /*    width:100%; */
     z-index:100;
   }
-  
+
    #recap_errors_esame_mobile button, #recap_errors_mobile button{
      display:block;
      width: 100%;
     margin: 0;
     border-radius: 10px 0px 0px 10px;
    }
-   
+
    #recap_errors_esame_mobile input, #recap_errors_mobile input{
      border: 0px;
       margin-bottom: 5px;
       background-color: rgba(0,123,255,.25);
       padding-left:5px;
    }
-   
+
   .col-lg-10.mx-auto{
-    margin-left:3rem!important;  
+    margin-left:3rem!important;
   }
-  
+
   .col-lg-10.mx-auto *{
     font-size: small;
   }
-  
+
   ol{
     padding-left:0px;
   }
-  
+
   ol div.btn{
     padding:0px;
     margin: 3px;
     font-size: smaller;
   }
-  
+
   .inline *{
     display:inline-block;
   }
-  
+
   .punteggio-esame{
     display:block;
    }
-  
+
   .punteggio-esame::after {
     content: " ";
     /* box-shadow: 1px 2px 2px 3px; */
@@ -317,7 +329,7 @@ td.border-left{
     /* float: right; */
     margin-left: 25%;
    }
-   
+
    .scroll-to-top {
     position: fixed;
     right: 0;
@@ -334,17 +346,17 @@ td.border-left{
     padding: 0.5rem 0.5rem 0 0;
     font-size: 4rem;
   }
-  
+
   #riepilogo_quiz_div *{
     font-size:smaller;
-  } 
-  
-  #riepilogo_quiz_div h1, #riepilogo_quiz_div h2{
-    font-size:medium;   
   }
-  
+
+  #riepilogo_quiz_div h1, #riepilogo_quiz_div h2{
+    font-size:medium;
+  }
+
   #riepilogo_quiz_div i.far{
     font-size:xx-large;
   }
-  
+
 }
