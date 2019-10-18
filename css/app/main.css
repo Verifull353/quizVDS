@@ -6,7 +6,7 @@ body{
 
 header.masthead{
   height:100%;
-  background-position: 30% 40%!important;
+  background-position: 30% 30%!important;
   background-size: 400%!important;
 }
 
@@ -27,7 +27,7 @@ header.masthead h3{
     width: 100%;
     height: 84px;
     background-color: #17a2b8;
-    z-index: -2;
+    z-index: 1;
 
 }
 
@@ -37,7 +37,7 @@ header.masthead h3{
 }
 
 #quiz_sequenziale, #quiz_esame{
-  z-index:-3;
+  z-index:0;
 }
 
 #recap_errors_esame_mobile, #recap_errors_mobile{
@@ -45,8 +45,12 @@ header.masthead h3{
   top:0!important;
   height:100%!important;
   border-radius:0!important;
-  z-index:-1!important;
+  z-index:1!important;
   padding-top:84px!important;
+}
+
+#sidebar-wrapper{
+  z-index:10;
 }
 
 .content-section{
@@ -54,7 +58,7 @@ header.masthead h3{
 }
 
 .pushTOP{
-  z-index: 1 !important;
+  z-index: 5 !important;
   position: fixed;
   height: 100%;
   width: 100%;
