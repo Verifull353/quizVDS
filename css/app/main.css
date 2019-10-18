@@ -1,3 +1,7 @@
+.no_app{
+  display:none!important;
+}
+
 body{
   position:fixed;
   width:100%;
@@ -207,8 +211,9 @@ td.border-left{
 }
 
 #recap_errors .card, #recap_errors_esame .card{
-  position:absolute;
-  float:left;
+  position:fixed;
+  left:2rem;
+  max-width: 16.6%;
 }
 
 #recap_errors .card button, #recap_errors_esame .card button{
