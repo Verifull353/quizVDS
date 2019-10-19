@@ -514,7 +514,7 @@ $(document).ready(
 //..stopwatch timer
 var secondsRemaining;
 var intervalHandle;
-var minutes = 30;
+var minutes = 45;
 
 function tick() {
     // grab the h1
