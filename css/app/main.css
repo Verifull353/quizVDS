@@ -22,6 +22,39 @@ header.masthead h3{
   font-size:4vw!important;
 }
 
+.arrow_down{
+  text-align: center;
+  opacity: 0.5;
+  position:fixed;
+  bottom:10px;
+}
+
+.arrow_up{
+  text-align: center;
+  opacity: 0.5;
+  position:absolute;
+  top:10px;
+}
+
+.arrow_up i{
+  text-align: center;
+  opacity: 0.5;
+  position: fixed;
+  top: 120px;
+  padding: 5px;
+  font-size: 3rem!important;
+  right: 0;
+}
+
+.arrow_down i {
+  text-align: center;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 10px;
+  padding: 5px;
+  font-size: 3rem!important;
+  right: 0;
+}
 
 .quiz_header_img {
 
